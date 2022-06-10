@@ -38,7 +38,7 @@ class IndexAdminController extends Controller
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 		if($username == "" || $password == ""){
-			echo "Không được để trống!";
+			echo "Không được để trống sơn!";
 			return 0;
 		}
 		$data = array();
