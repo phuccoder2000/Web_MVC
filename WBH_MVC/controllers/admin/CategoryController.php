@@ -18,7 +18,7 @@ class CategoryController extends Controller
 		require_once 'models/admin/categoryModel.php';
 		$md = new categoryModel;
 		$data = $md->getAllCtgrs();
-		$this->render('category',$data,'DANH MỤC SẢN PHẨM','admin');
+		$this->render('category',$data,'DANH MỤC SẢN PHẨM1','admin');
 	}
 	function action(){
 		$actionName = $id = $cname = $ccountry = '';
