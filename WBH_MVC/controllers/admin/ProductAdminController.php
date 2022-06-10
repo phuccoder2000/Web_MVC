@@ -18,6 +18,6 @@ class ProductAdminController extends Controller
 		require_once 'models/admin/productModel.php';
 		$md = new productModel;
 		$data = $md->getAllPrds();
-		$this->render('product',$data,'SẢN PHẨM','admin');
+		$this->render('product',$data,'SẢN PHẨM fix','admin');
 	}
 }
