@@ -53,7 +53,7 @@ class IndexAdminController extends Controller
 				echo "Sai tên tài khoản hoặc mật khẩu!";
 			}
 		} else {
-			echo "Sai tên tài khoản hoặc mật khẩu!";
+			echo "Sai tên tài khoản hoặc mật khẩu1!";
 		}
 	}
 	function logout(){
